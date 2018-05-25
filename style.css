@@ -2,17 +2,19 @@ body {
 }
 
 #stage {
-  background: transparent
+  /* background: transparent
     url(./images/css_animation_exercise_4.png)
-    0 0 no-repeat;
+    0 0 no-repeat; */
+  background-color: #F3ECEC;
+  border: 1px dashed #DAD7D7;
   height:600px;
   width: 600px;
   margin: auto;
 }
 
 #hero {
-  width: 75px;
-  height: 75px;
+  width: 74px;
+  height: 74px;
   border: 1px dashed red;
   position: relative;
   top: 20px;
@@ -60,8 +62,8 @@ body {
     transform: rotate(90deg);
     background: none;
     border-radius: 0;
-    width: 75px;
-    height: 75px;
+    width: 74px;
+    height: 74px;
   }
 
   100%{
