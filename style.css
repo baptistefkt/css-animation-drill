@@ -2,19 +2,17 @@ body {
 }
 
 #stage {
-  /* background: transparent
+  background: transparent
     url(./images/css_animation_exercise_4.png)
-    0 0 no-repeat; */
-  background-color: #F3ECEC;
-  border: 1px dashed #D8D5D5;
+    0 0 no-repeat;
   height:600px;
   width: 600px;
   margin: auto;
 }
 
 #hero {
-  width: 74px;
-  height: 74px;
+  width: 75px;
+  height: 75px;
   border: 1px dashed red;
   position: relative;
   top: 20px;
@@ -27,14 +25,13 @@ body {
     top: 20px; left: 20px;
     transform: rotate(0deg);
     border: 1px dashed red;
+
   }
 
   29.4%{
     top: 20px; left:500px;
     transform: rotate(0deg);
     border: 1px dashed red;
-    width: 74px;
-    height: 74px;
   }
 
   41.2%{
@@ -58,14 +55,15 @@ body {
   }
 
   70.6%{
-    top: 202px;
+    top: 200px;
     left: 20px;
     border: 1px dashed #0900BD;
     transform: rotate(90deg);
     background: none;
     border-radius: 0;
-    width: 74px;
-    height: 74px;
+    width: 75px;
+    height: 75px;
+
   }
 
   100%{
@@ -77,5 +75,4 @@ body {
     width: 150px;
     height: 150px;
   }
-
 }
