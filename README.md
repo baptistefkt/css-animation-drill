@@ -1,2 +1,4 @@
-# css-animation-drill
-CSS animation drill
+# CSS animation drill
+
+Link to the animation [here](https://baptistefkt.github.io/css-animation-drill/)
+
