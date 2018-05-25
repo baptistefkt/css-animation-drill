@@ -1,0 +1,78 @@
+body {
+}
+
+#stage {
+  background: transparent
+    url(./images/css_animation_exercise_4.png)
+    0 0 no-repeat;
+  height:600px;
+  width: 600px;
+  margin: auto;
+}
+
+#hero {
+  width: 75px;
+  height: 75px;
+  border: 1px dashed red;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  animation: slide 7s linear infinite;
+}
+
+@keyframes slide {
+  0%{
+    top: 20px; left: 20px;
+    transform: rotate(0deg);
+    border: 1px dashed red;
+
+  }
+
+  29.4%{
+    top: 20px; left:500px;
+    transform: rotate(0deg);
+    border: 1px dashed red;
+  }
+
+  41.2%{
+    top: 200px; left: 500px;
+    transform: rotate(0deg);
+    border: 1px dashed red;
+  }
+
+  44.1%{
+    top: 200px;
+    left: 270px;
+    transform: rotate(45deg);
+    border: 1px dashed red;
+  }
+
+  55.9%{
+    top: 200px;
+    left: 270px;
+    border: 1px dashed red;
+    transform: rotate(45deg);
+  }
+
+  70.6%{
+    top: 200px;
+    left: 20px;
+    border: 1px dashed #0900BD;
+    transform: rotate(90deg);
+    background: none;
+    border-radius: 0;
+    width: 75px;
+    height: 75px;
+
+  }
+
+  100%{
+    top: 450px; left: 450px;
+    transform: rotate(90deg);
+    border: 0;
+    border-radius: 75px;
+    background: radial-gradient(#FBDA61, #F76B1C);
+    width: 150px;
+    height: 150px;
+  }
+}
