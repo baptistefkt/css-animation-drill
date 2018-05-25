@@ -2,22 +2,24 @@ body {
 }
 
 #stage {
-  background: transparent
+  /* background: transparent
     url(./images/css_animation_exercise_4.png)
-    0 0 no-repeat;
+    0 0 no-repeat; */
+  background-color: #F3ECEC;
+  border: 1px dashed #D8D5D5;
   height:600px;
   width: 600px;
   margin: auto;
 }
 
 #hero {
-  width: 75px;
-  height: 75px;
+  width: 74px;
+  height: 74px;
   border: 1px dashed red;
   position: relative;
   top: 20px;
   left: 20px;
-  animation: slide 7s linear infinite;
+  animation: slide 17s linear infinite;
 }
 
 @keyframes slide {
@@ -25,13 +27,14 @@ body {
     top: 20px; left: 20px;
     transform: rotate(0deg);
     border: 1px dashed red;
-
   }
 
   29.4%{
     top: 20px; left:500px;
     transform: rotate(0deg);
     border: 1px dashed red;
+    width: 74px;
+    height: 74px;
   }
 
   41.2%{
@@ -55,15 +58,14 @@ body {
   }
 
   70.6%{
-    top: 200px;
+    top: 202px;
     left: 20px;
     border: 1px dashed #0900BD;
     transform: rotate(90deg);
     background: none;
     border-radius: 0;
-    width: 75px;
-    height: 75px;
-
+    width: 74px;
+    height: 74px;
   }
 
   100%{
@@ -75,4 +77,5 @@ body {
     width: 150px;
     height: 150px;
   }
+
 }
